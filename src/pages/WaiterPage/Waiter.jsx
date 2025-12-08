@@ -75,7 +75,7 @@ const Waiter = () => {
           <div
             key={cat}
             onClick={() => setCategory(cat)}
-            className={`flex justify-center items-center h-10 w-full cursor-pointer rounded-[5px] transition-all duration-200 ${
+            className={`bg-[#223E7B] flex justify-center items-center h-10 w-full cursor-pointer rounded-[5px] transition-all duration-200 ${
               category === cat
                 ? "bg-[#BF7000] text-white"
                 : "hover:bg-[#BF7000]"

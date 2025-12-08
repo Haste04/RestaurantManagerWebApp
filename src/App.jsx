@@ -8,7 +8,7 @@ import {
 import Waiter from "./pages/WaiterPage/Waiter.jsx";
 import Manager from "./pages/ManagerPage/Manager.jsx";
 import Kitchen from "./pages/KitchenPage/Kitchen.jsx";
-
+import Cashier from "./pages/CashierPage/Cashier.jsx";
 function App() {
   return (
     <div className="bg-[#101e3c]">
@@ -19,6 +19,7 @@ function App() {
           <Route path="/waiter" element={<Waiter />} />
           <Route path="/manager" element={<Manager />} />
           <Route path="/kitchen" element={<Kitchen />} />
+          <Route path="/cashier" element={<Cashier />} />
         </Routes>
       </Router>
     </div>
